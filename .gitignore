@@ -1,3 +1,5 @@
+# Este arquivo define quais diretórios e arquivos serão ignorados pelo GitHub e não serão incluídos no controle de versão.
+
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
@@ -31,7 +33,7 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # env files (can opt-in for committing if needed)
-.env*
+src/env
 
 # vercel
 .vercel
