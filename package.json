@@ -2,10 +2,15 @@
   "bin": {
     "boilerplate-web": "./cli.js"
   },
+  "files" : ["src"],
   "name": "boilerplate-web",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "author": "José Vitor",
+  "repository": {
+    "type": "git",
+    "url" : "https://github.com/SistemasCaseej/boilerplate-web.git"
+  },
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
