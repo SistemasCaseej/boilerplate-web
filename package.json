@@ -4,7 +4,8 @@
   },
   "files" : ["src"],
   "name": "boilerplate-web",
-  "version": "0.1.1",
+  "main": "page.js",
+  "version": "2.1.1",
   "private": false,
   "author": "José Vitor",
   "repository": {
