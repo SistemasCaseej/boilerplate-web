@@ -2,7 +2,9 @@
   "bin": {
     "boilerplate-web": "./cli.js"
   },
-  "files" : ["src"],
+  "files": [
+    "src"
+  ],
   "name": "boilerplate-web",
   "main": "page.js",
   "version": "2.1.1",
@@ -10,7 +12,7 @@
   "author": "José Vitor",
   "repository": {
     "type": "git",
-    "url" : "https://github.com/SistemasCaseej/boilerplate-web.git"
+    "url": "https://github.com/SistemasCaseej/boilerplate-web.git"
   },
   "scripts": {
     "dev": "next dev --turbopack",
@@ -72,13 +74,7 @@
     "zod": "^3.24.2"
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.26.9",
-    "@babel/preset-react": "^7.26.3",
-    "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
-    "@testing-library/dom": "^10.4.0",
-    "@testing-library/jest-dom": "^6.6.3",
-    "@testing-library/react": "^16.2.0",
     "eslint": "^9",
     "eslint-config-next": "15.2.4",
     "jest": "^29.7.0",
